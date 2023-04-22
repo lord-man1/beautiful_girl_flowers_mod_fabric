@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "beautifulgirlflowers",
+  "version": "${version}",
+  "name": "Beautiful Girl In Beautiful Flowers",
+  "description": "Thanks to the beautiful girls!",
+  "authors": [
+    "french_mouse"
+  ],
+  "contact": {
+    "website": "https://r.mtdv.me/products/french_mouse",
+    "repo": "https://github.com/lord-man1/beautiful_girl_flowers_mod_fabric"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "flower.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.girl_flowers.beautifulgirlflowersmodfabric.client.BeautifulGirlInBeautifulFlowersClient"
+    ],
+    "main": [
+      "org.girl_flowers.beautifulgirlflowersmodfabric.BeautifulGirlInBeautifulFlowers"
+    ]
+  },
+  "mixins": [
+    "BeautifulGirlFlowersModFabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
